@@ -13,7 +13,6 @@ class Database {
     {
         // data source name
         $dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->db_name;
-        // $dsn = "mysql:host={$this->host}; dbname={$this->db_name}";
         
         $option = [
             PDO::ATTR_PERSISTENT => true,
@@ -23,7 +22,7 @@ class Database {
         try {
             $this->dbh = new PDO($dsn, $this->user, $this->pass, $option);
         } catch(PDOException $e) {
-            die($e->getMassage());
+            die($e->getMessage());
         }
     }
 
