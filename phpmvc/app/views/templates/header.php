@@ -22,7 +22,8 @@
       </div>
     </div>
     <div class="d-flex">
-      <a class="nav-link" href="<?= BASEURL; ?>/about">Logout</a>
+      <a class="nav-link" href="<?= BASEURL; ?>/login">Login</a>
+      <a class="nav-link" href="<?= BASEURL; ?>/Logout">Logout</a>
     </div>
   </div>
 </nav>
