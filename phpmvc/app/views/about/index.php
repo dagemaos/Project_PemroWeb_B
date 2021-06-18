@@ -1,31 +1,39 @@
+    <h3><center>World Edu</h3>
+      <hr class="featurette-divider">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-          <img src="<?= BASEURL; ?>/img/slide2.jpg" class="col-lg-10 pt-4 pt-lg-0" alt="..." size=20px>
+          <img src="<?= BASEURL; ?>/img/slide2.jpg" class="col-lg-10 pt-4 pt-lg-2" alt="...">
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+          <div class="col-lg-6 pt-8 pt-lg-4">
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Merupakan sebuah website non - profit yang bertujuan untuk meningkatkan kesadaran tentang pentingnya pendidikan dan masih banyaknya kesejenjangan pendidikan didunia
+              Website ini juga memiliki tujuan untuk mendukung poin SDGS ke-4 yaitu "Pendidikan Berkualitas" yang bertujuan Menjamin Kualitas Pendidikan yang Inklusif dan Merata serta Meningkatkan Kesempatan Belajar Sepanjang Hayat untuk Semua.
             </p>
             <ul>
-              <li><i class="bi bi-check2-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check2-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check2-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              <li><i class="bi bi-check2-circle"></i> Meningkatkan kesadaran tentang masih banyaknya kesenjangan pendidikan.</li>
+              <li><i class="bi bi-check2-circle"></i> Memberikan informasi terkait isu pendidikan dunia.</li>
+              <li><i class="bi bi-check2-circle"></i> Menjadi Bagian dalam upaya menjamin kualitas pendidikan yang inklusifr.</li>
             </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
           </div>
         </div>
       </div>
     </section><!-- End About Section -->
+    <div class="col-lg-20 pt-8 pt-lg-4">
+    <hr class="featurette-divider">
+    <h3><center>Founder<h3>
+    <div class="container mt-5">
 
-    <div class="container mt-4">
-        <h1><center>Founder</h1>
-        <img src="<?= BASEURL; ?>/img/profil.jpg" alt="Ivanri" width="100" class="rounded-circle shadow">
-        <p>Halo, nama saya <?= $data['nama']; ?>, umur saya <?= $data['umur']; ?> tahun, saya adalah seorang <?= $data['pekerjaan']; ?>.</p>
-    </div>
+      <!-- START THE PARAGRAF -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Ivanri Fleri Simanjuntak</h2>
+          <p class="lead">Halo saya Ivanri, merupakan mahasiswa fakultas ilmu komputer universitas jember 2019.</br>World Edu merupakan salah satu website yang kami ciptakan sebagai bentuk kesadaran akan pentingnya pendidikan berkualitas bagi semua kalangan masyarakat dunia</p>
+        </div>
+        <div class="col-md-5">
+          <img src="<?= BASEURL; ?>/img/profil.jpg ?>" class="col-lg-5 pt-4 pt-lg-2" alt="...">
+        </div>
+      </div>

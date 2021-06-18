@@ -18,9 +18,11 @@
         <a class="nav-link active" aria-current="page" href="<?= BASEURL; ?>">Home</a>
         <a class="nav-link" href="<?= BASEURL; ?>/issues">Issues</a>
         <a class="nav-link" href="<?= BASEURL; ?>/about">About</a>
+        <a class="nav-link" href="<?= BASEURL; ?>/user">Users</a>
       </div>
     </div>
     <div class="d-flex">
+      <a class="nav-link" href="<?= BASEURL; ?>/login">Login</a>
       <a class="nav-link" href="<?= BASEURL; ?>/about">Logout</a>
     </div>
   </div>
