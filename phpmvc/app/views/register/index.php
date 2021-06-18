@@ -5,9 +5,17 @@
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Silahkan login terlebih dahulu.</p>
+      <p class="login-box-msg">Silahkan Melakukan Register.</p>
 
-      <form action="<?= BASEURL; ?>/login/prosesLogin" method="post">
+      <form action="<?= BASEURL; ?>/register/tambah" method="post" enctype="multipart/form-data">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="ketikkan nama.." name="nama">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user"></span>
+            </div>
+          </div>
+        </div>
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="ketikkan username.." name="username">
           <div class="input-group-append">
@@ -27,8 +35,7 @@
         <div class="row">
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-            <a href="<?= BASEURL; ?>/register/index/" class="btn btn-primary">Daftar</a>
+            <button type="submit" class="btn btn-primary btn-block">Register</button>
           </div>
           <!-- /.col -->
         </div>

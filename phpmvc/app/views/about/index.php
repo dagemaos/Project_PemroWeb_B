@@ -42,3 +42,20 @@
         </div>
       </div>
     </div>
+
+    <div class="container mt-5 mb-5">
+
+  <!-- START THE PARAGRAF -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Andrian Ramilia Pamungkas</h2>
+          <p class="lead">Halo saya Andrian, merupakan mahasiswa fakultas ilmu komputer universitas jember 2019. World Edu merupakan salah satu cara yang kami lakukan sebagai bentuk implementasi mengenai iptek sebagai bentuk guna meningkatkan kesadaran akan pentingnya pendidikan berkualitas bagi semua kalangan masyarakat dunia</p>
+        </div>
+        <div class="col-md-5">
+          <img src="<?= BASEURL; ?>/img/Andrian.jpg ?>" class="col-lg-5 pt-4 pt-lg-2" alt="...">
+        </div>
+      </div>
+  </div>
