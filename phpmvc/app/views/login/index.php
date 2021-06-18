@@ -1,5 +1,5 @@
-<body class="hold-transition login-page">
-<div class="login-box">
+<div class="container mt-5 mb-5 pb-5">
+<div class="login-box col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 mx-auto" style="margin-bottom:200px;">
   <div class="login-logo">
   </div>
   <!-- /.login-logo -->
@@ -43,6 +43,10 @@
         </div>
       </div>
 </div>
+
+
+
+</div>
 <!-- /.login-box -->
 
 <!-- jQuery -->
@@ -51,6 +55,3 @@
 <script src="<?= BASEURL; ?>/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="<?= BASEURL; ?>/js/adminlte.min.js"></script>
-
-</body>
-</html>

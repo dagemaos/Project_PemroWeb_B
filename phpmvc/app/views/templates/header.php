@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halaman <?= $data['judul']; ?></title>
     <link href="<?= BASEURL; ?>/css/bootstrap.css" rel="stylesheet">
+    <link href="<?= BASEURL; ?>/css/footer.css" rel="stylesheet">
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
@@ -17,7 +18,7 @@
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="<?= BASEURL; ?>">Home</a>
         <a class="nav-link" href="<?= BASEURL; ?>/issues">Issues</a>
-        <a class="nav-link" href="<?= BASEURL; ?>/user">Users</a>
+        <!-- <a class="nav-link" href="<?= BASEURL; ?>/user">Users</a> -->
         <a class="nav-link" href="<?= BASEURL; ?>/about">About</a>
       </div>
     </div>

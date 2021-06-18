@@ -1,4 +1,5 @@
-<h3><center>World Edu</h3>
+  <div class="container mt-5">  
+    <h3><center>World Edu</h3>
       <hr class="featurette-divider">
       <div class="container">
         <div class="row">
@@ -22,7 +23,10 @@
     <div class="col-lg-20 pt-8 pt-lg-4">
     <hr class="featurette-divider">
     <h3><center>Founder<h3>
-    <div class="container mt-5">
+  </div>
+  </div>
+    
+    <div class="container mt-5 mb-5">
 
       <!-- START THE PARAGRAF -->
 
@@ -37,3 +41,4 @@
           <img src="<?= BASEURL; ?>/img/profil.jpg ?>" class="col-lg-5 pt-4 pt-lg-2" alt="...">
         </div>
       </div>
+    </div>

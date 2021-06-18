@@ -25,7 +25,7 @@
     <br>
     <h3>Daftar Issues</h3>
     <?php foreach( $data['issues'] as $issues ) : ?>
-    <div class="card mt-5 mx-auto col-lg-2" style="width: 60rem;">
+    <div class="card mt-5 mx-auto col-lg-2 mb-5" style="width: 60rem;">
         <img src="<?= BASEURL; ?>/img/<?= $issues['gambar']; ?>" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title"><?= $issues['judul']; ?></h5>
