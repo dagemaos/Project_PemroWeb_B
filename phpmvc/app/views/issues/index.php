@@ -1,7 +1,25 @@
 <div class="container mt-4">
 
+  <div class="row">
+    <div class="col-lg-6">
+        <?php Flasher::flash(); ?>
+    </div>
+  </div>
+
+    <!-- search -->
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <form action="<?= BASEURL; ?>/issues/cari" method="post">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search issues..." name="keyword" id="keyword" autocomplete="off">
+            <button class="btn btn-outline-primary" type="submit" id="tombolCari">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formModal">
+    <button type="button" class="btn btn-primary tombolTambahData" data-bs-toggle="modal" data-bs-target="#formModal" style="margin-bottom:15px; float:right">
         Add Issues
     </button>
     <br>
@@ -13,6 +31,8 @@
             <h5 class="card-title"><?= $issues['judul']; ?></h5>
             <p class="card-text"><?= substr($issues['paragraf1'],0,500); ?>...</p>
             <a href="<?= BASEURL; ?>/issues/detail/<?= $issues['id_issues']; ?>" class="btn btn-primary">Read More</a>
+            <a href="<?= BASEURL; ?>/issues/hapus/<?= $issues['id_issues']; ?>" class="btn btn-danger" style="float:right" onclick="return confirm('yakin ?');">Delete</a>
+            <a href="<?= BASEURL; ?>/issues/ubah/<?= $issues['id_issues']; ?>" class="btn btn-success tampilModalUbah" style="float:right; margin-right:10px;" data-bs-toggle="modal" data-bs-target="#formModal" data-id="<?= $issues['id_issues']; ?>">Edit</a>
         </div>
     </div>
     <?php endforeach; ?>
@@ -30,6 +50,7 @@
       <div class="modal-body">
         
         <form action="<?= BASEURL; ?>/issues/tambah" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="id_issues" id="id_issues">
             <div class="mb-3">
                 <label for="judul" class="form-label">Judul</label>
                 <input type="text" class="form-control" id="judul" name="judul">
@@ -48,7 +69,7 @@
                 <textarea class="form-control" id="paragraf3" name="paragraf3" rows="3"></textarea>
             </div>
 
-            <div class="mb-3">
+            <div class="mb-3" id="gambar">
                 <label for="gambar" class="form-label">Input Gambar</label>
                 <input type="file" class="form-control-file" id="gambar" name="gambar">
             </div>
