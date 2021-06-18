@@ -52,6 +52,6 @@
 
   <!-- /END THE PARAGRAF -->
 
-  <p class="float-right"><a href="<?= BASEURL; ?>/issues" class="btn btn-primary">Back</a></p>
+  <p class="float-right"><a href="<?= BASEURL; ?>/issues" class="btn btn-secondary">Back</a></p>
 
 </div>
